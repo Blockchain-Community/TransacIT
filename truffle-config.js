@@ -34,7 +34,8 @@ module.exports = {
    *
    * $ truffle test --network <network-name>
    */
-
+  contract_build_directory: './client/src/contracts',// doing this will create the json file containing abi's will be created in frontend directory
+  
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default
     // if it's defined here and no other network is specified at the command line.
